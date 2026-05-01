@@ -12,19 +12,4 @@ h4 {
   font-family:verdana;
   font-size:2vw;
 }
-a:link {
-  color: #F589B8;
-  text-decoration: none;
-}
-a:visited {
-  color: #F589B8;
-  text-decoration: none;
-}
-a:hover {
-  color: #FAA0C7;
-  text-decoration: none;
-}
-a:active {
-  color: #FC917C;
-  text-decoration: none;
-}
+
