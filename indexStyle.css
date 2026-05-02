@@ -7,11 +7,6 @@ h1 {
   text-align:center;
   font-size:4vw;
 }
-h4 {
-  text-align:center;
-  font-family:verdana;
-  font-size:2vw;
-}
 a:link {
 color: #F589B8;
 text-decoration: none;
@@ -27,4 +22,9 @@ a:hover {
 a:active {
   color: #FC917C;
   text-decoration: none;
+}
+h4 {
+  text-align:center;
+  font-family:verdana;
+  font-size:2vw;
 }
