@@ -49,8 +49,3 @@ h4 {
   grid-row-end: 3;
   place-self: center;
 }
-.prepeater {
-  background-image: url('repeater.png');
-  animation-name: enlarge;
-  animation-duration: 1s;
-}
