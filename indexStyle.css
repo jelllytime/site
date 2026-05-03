@@ -32,7 +32,7 @@ h4 {
 .canvas {
   width:auto;
   height:auto;
-  padding:10%;
+  padding: 0.5vw;
   border: 5% #FCFCFC;
-  margin: 5%;
+  margin: 0.5vw;
 }
