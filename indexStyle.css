@@ -43,6 +43,7 @@ h4 {
   place-self: center;
 }
 .item2 {
+  background-image: url('repeater.png');
   grid-column-start: 3;
   grid-column-end: 3;
   grid-row-start: 3;
