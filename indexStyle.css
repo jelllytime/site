@@ -1,6 +1,13 @@
 body {
   background-color:#FFC9E5;
 }
+.header {
+  margin: 30%;
+  border: 5% #65E687;
+  padding: 50%;
+  width:auto;
+  height: auto;
+}
 h1 {
   color:#DB4488;
   font-family:verdana;
@@ -28,10 +35,4 @@ h4 {
   font-family:verdana;
   font-size:2vw;
 }
-.header {
-  margin: 30%;
-  border: 1vw #65E687;
-  padding: 10%;
-  width:auto;
-  height: auto;
-}
+
