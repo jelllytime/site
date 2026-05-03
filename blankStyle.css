@@ -1,9 +1,10 @@
 .canvas {
   display: grid;
-  grid-template-columns: repeat(12, [col-start] 1fr)
-  gap: 1vw;
+  grid-template-columns: repeat(12, 1fr)
+  column-gap: 1vw;
+  row-gap: 1vw;
   padding: 1vw;
-  grid-template-rows: repeat(12, [col-start] 2vw)
+  grid-template-rows: repeat(12, 2vw)
 }
 
 * {
