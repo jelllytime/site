@@ -35,3 +35,8 @@ h4 {
   grid-template-rows: 1fr 12fr 1fr;
   gap: 1vw;
 }
+.item1 {
+  grid-column-start: 3 / span 1;
+  grid-row-start: 2 / span 1;
+  place-self: center;
+}
