@@ -48,4 +48,6 @@ h4 {
   grid-row-start: 3;
   grid-row-end: 3;
   place-self: center;
+  animation-name: enlarge;
+  animation-duration: 1s;
 }
