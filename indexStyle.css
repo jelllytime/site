@@ -29,17 +29,17 @@ h4 {
   font-family:verdana;
   font-size:2vw;
 }
-.header {
+<!--.header {
   margin: 30%;
   border: 5% #65E687;
   padding: 50%;
   width:auto;
   height: auto;
-}
+}-->
 .canvas {
   width:auto;
   height:auto;
-  padding:30%;
-  border: 5%;
-  margin: 30%;
+  padding:10%;
+  border: 5% #FCFCFC;
+  margin: 5%;
 }
