@@ -43,7 +43,6 @@ h4 {
   place-self: center;
 }
 .item2 {
-  background-image: url('repeater.png');
   grid-column-start: 3;
   grid-column-end: 3;
   grid-row-start: 3;
@@ -51,4 +50,7 @@ h4 {
   place-self: center;
   animation-name: enlarge;
   animation-duration: 1s;
+}
+.prepeater {
+  background-image: url('repeater.png');
 }
