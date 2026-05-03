@@ -30,9 +30,9 @@ h4 {
   font-size:2vw;
 }
 .canvas {
-  width:3vw;
-  height:3vw;
-  padding: 0.5vw;
+  width: 500px;
+  height: 500px;
+  padding: 10%;
   border: 5% #FCFCFC;
-  margin: 0.5vw;
+  margin: 10%;
 }
