@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Lora:ital,wght@0,400..700;1,400..700&family=Schoolbell&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --note1: #ec8a8a;
+    --textbg: #dfcddf;
+    --textlink: #bc0000;
+    --heading: #efd0b3;
+    --shadow: #6c18093e;
+}
+
+body {
+    background: #b8f5ee;
+    background: linear-gradient(25deg,rgba(184, 245, 238, 1) 0%, rgba(240, 170, 193, 1) 41%, rgba(240, 149, 168, 1) 59%, rgba(215, 245, 198, 1) 100%);
+}
+
+.layer1 {
+    display: flex;
+    background-color: var(--textbg);
+    z-index: -99;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: 4rem;
+    margin-left: 4rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    align-content: center;
+    padding-bottom: 20rem;
+    margin-top:2rem;
+}
+
+.bodytext {
+    font-family: "Noto Sans";
+    font-size: 1.2rem;
+    color: #963255;
+    word-spacing: 2px;
+    line-height: 2rem;
+    letter-spacing: 0.5px;
+    margin: 1rem;
+}
+
+.fronttext {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    align-content: flex-start;
+    min-width: 10rem;
+    max-width: 45rem;
+}
+
+.fronttextholder {
+    display:flex;
+    flex-direction: column;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: "Noto Sans";
+    color: var(--heading);
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    z-index: 99;
+    margin-top: 2rem;
+    font-size: 3rem;
+    margin-bottom: -20px;
+    text-shadow: 1px 1px 1px #ffb066;
+    background-color:rgb(228, 119, 161);
+    padding: .5rem 1rem;
+
+}
+
+.note {
+    box-sizing: border-box;
+    background: #e87474;
+    background: linear-gradient(131deg,rgba(232, 116, 116, 1) 0%, rgba(255, 133, 133, 1) 50%, rgba(227, 100, 100, 1) 100%);
+    display: flex;
+    flex-direction: column;
+    height: 20rem;
+    width: 20rem;
+    padding-top: 1.5rem;
+    margin-top: 3rem;
+    box-shadow: .5rem .7rem 10px var(--shadow);
+}
+
+.nav {
+    list-style-type: none;
+    display: flex;
+    gap: 0.8rem;
+    flex-direction: column;
+}
+
+.nav li {
+    font-family:"Schoolbell";
+    font-size: 1.2rem;
+}
+
+.nav li a {
+    color: var(--textlink);
+    text-decoration:none;
+}
+
+.nav li a :hover {
+    color: #e93636;
+    text-decoration: underline;
+}
+
+.container {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+}
