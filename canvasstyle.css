@@ -28,7 +28,6 @@ body {
     align-content: center;
     padding-bottom: 20rem;
     margin-top:2rem;
-    min-block-size: 50rem;
 }
 
 .bodytext {
@@ -36,87 +35,6 @@ body {
     font-size: 1.2rem;
     color: #963255;
     word-spacing: 2px;
-    line-height: 2rem;
-    letter-spacing: 0.5px;
-    margin: 1rem;
-}
-
-.fronttext {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 3rem;
-    align-content: flex-start;
-    min-width: 10rem;
-    max-width: 45rem;
-}
-
-.fronttextholder {
-    display:flex;
-    flex-direction: column;
-}
-
-.title {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    font-family: "Noto Sans";
-    color: var(--heading);
-    align-items: center;
-    align-content: center;
-    flex-wrap: wrap;
-    z-index: 99;
-    margin-top: 2rem;
-    font-size: 3rem;
-    margin-bottom: -20px;
-    text-shadow: 1px 1px 1px #ffb066;
-    background-color:rgb(228, 119, 161);
-    padding: .5rem 1rem;
-
-}
-
-.note {
-    box-sizing: border-box;
-    background: #e87474;
-    background: linear-gradient(131deg,rgba(232, 116, 116, 1) 0%, rgba(255, 133, 133, 1) 50%, rgba(227, 100, 100, 1) 100%);
-    display: flex;
-    flex-direction: column;
-    height: 20rem;
-    width: 20rem;
-    padding-top: 1.5rem;
-    margin-top: 3rem;
-    box-shadow: .5rem .7rem 10px var(--shadow);
-}
-
-.nav {
-    list-style-type: none;
-    display: flex;
-    gap: 0.8rem;
-    flex-direction: column;
-}
-
-.nav li {
-    font-family:"Schoolbell";
-    font-size: 1.2rem;
-}
-
-.nav li a {
-    color: var(--textlink);
-    text-decoration:none;
-}
-
-.nav li a :hover {
-    color: #e93636;
-    text-decoration: underline;
-}
-
-.container {
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 3rem;
-    justify-content: center;
-}    word-spacing: 2px;
     line-height: 2rem;
     letter-spacing: 0.5px;
     margin: 1rem;
