@@ -26,7 +26,7 @@ body {
     padding-left: 6rem;
     padding-right: 6rem;
     align-content: center;
-    padding-bottom: 20rem;
+    padding-bottom: 16rem;
     margin-top:2rem;
 }
 
@@ -64,7 +64,6 @@ body {
     align-items: center;
     align-content: center;
     flex-wrap: wrap;
-    z-index: 99;
     margin-top: 2rem;
     font-size: 3rem;
     margin-bottom: -20px;
