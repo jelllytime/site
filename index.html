@@ -3,54 +3,184 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bubblgum</title>
-    <link rel="stylesheet" href="canvasstyle.css">
+    <title>bubblgum</title>
     <link rel="icon" href="images/myfavicon-cropped.svg" type="image/x-icon">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display=swap');
+
+  * {
+    margin:0;
+    padding:0;
+  }
+
+  .background {
+    background: url("blurred-image.png") no-repeat;
+    background-size:cover;
+    background-position:center;
+    position:relative;
+    height: 100vh;
+    overflow:scroll;
+  }
+
+  @media (min-width:320px){
+    .img {
+    width:300px;
+    height: auto;
+    }
+    .notepad, .notepadtextcontainer {
+      padding-top:60px;
+      width:300px;
+    }
+    p {
+      font-size: 15px;
+      line-height:23px;
+    }
+  }
+
+  @media (min-width:480px) {
+    .img {
+    width:500px;
+    height: auto;
+    }
+    .notepad, .notepadtextcontainer {
+      padding-top:90px;
+      width:500px;
+    }
+    h1 {
+      font-size: 30px;
+    }
+    p {
+      font-size: 15px;
+      line-height:23px;
+    }
+  }
+  @media (min-width:600px) {
+    .img {
+    width:500px;
+    height: auto;
+    }
+    .notepad, .notepadtextcontainer {
+      padding-top:130px;
+      width:500px;
+    }
+    h1 {
+      font-size: 37.5px;
+    }
+    p {
+      font-size:16px;
+      line-height:30px;
+    }
+  }
+  @media (min-width:801px) {
+    .img {
+    width:660px;
+    height: auto;
+    }
+    .notepad, .notepadtextcontainer {
+      padding-top:150px;
+      width:660px;
+    }
+    h1 {
+      font-size: 49.5px;
+    }
+    p {
+      font-size: 18px;
+      line-height:32px;
+    }
+  }
+
+  .notepad {
+    position:absolute;
+    top:0;
+    left:50%;
+    transform:translateX(-50%);
+  }
+
+  .notepadtextcontainer {
+    position:absolute;
+    top:0;
+    left:50%;
+    transform:translateX(-50%);
+    z-index:10;
+  }
+
+  .notepadtext {
+    padding-top:20px;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(12, [col-start] 1fr);
+    column-gap: 30px;
+    row-gap: 30px;
+  }
+
+  h1 {
+    grid-column: col-start 3 / span 9;
+    text-align: center;
+    padding:10px;
+    padding-bottom:20px;
+    font-family:"Nerko One";
+    color: rgb(230, 156, 194);
+  }
+
+  .ln {
+    opacity:0.;
+    font-size:40%;
+    color:rgb(119, 177, 130);
+  }
+
+  .e {
+    opacity: 0.7;
+    font-size: 40%;
+    color: rgb(117, 165, 173)
+  }
+
+  .about {
+    grid-column: col-start 3 / span 6;
+    grid-row: 2;
+  }
+
+  .myphoto {
+    grid-column: col-start 9 / span 3;
+    width:100%
+  }
+
+  .about1 {
+    grid-column: col-start 3 / span 9;
+    grid-row: 3;
+  }
+  
+  p {
+    font-family:"Fuzzy Bubbles";
+    color:rgb(28, 28, 28);
+    word-spacing: 3px;
+  }
+
+
+</style>
 </head>
 
-<body class="canvas">
-    <div class="layer1">
-            <h1 class="title">
-                <b>Bubblgum.me</b>
-            </h1>
-            <div class="container">
-                <div class="fronttextholder">
-                    <div class="fronttext">
-                        <h5 class="mediumheading">
-                        Welcome to my digital logbook. </h5>
-                        <p class="bodytext">I'm currently working on a guide of sorts, in hopes of aiding beginners at redstone. The guidebook will be updated periodically as I work out how to format site pages and such.
-                        </p>
-                    </div>
-                    <div class="toolbox">
-                        <div class="toolbox_1">
-                            <img src="images/toolbox_icon.png" width="40rem" height="40rem">
-                            <h2>Toolbox</h2>
-                        </div>
-                        <div class="toolbox_2">
-                            <img src="images/rs_dust_0.png" width="50rem">
-                            <div class="activers">
-                                <img src="images/rs_dust_1.png" width="50rem">
-                            </div>
-                            <img src="images/rs_torch_1.png" width="20rem">
-                            
-                            <img src="images/rs_repeater_1.png" width="100rem">
-                    
-                        </div>
-                    </div>
-                </div>
-                <div class="noteholder">
-                    <div class="note">
-                        <img src="images/itsjustdust.png" width="80px" height="80px" style="align-self:center;">
-                        
-                        <ul class="nav">
-                            <li><a href="https://bubblgum.me"><b>Home...........................................................</b></a></li>
-                            <li><a href="about"><b>About.........................................................</b></a></li>
-                            <li><a href="redstone/guidebook.html"><b>Redstone Guidebook.....................</b></a></li>
-                            <li><a href="redstone/archive.html"><b>Archive.......................................................</b></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+
+<body>
+<div class="background">
+  <div class="notepadtextcontainer">
+    <div class="notepadtext">
+      <h1>
+        bubbl<span class="ln" >ln</span><span class="e">&#40;e&#41;</span><sup>gum</sup>
+      </h1>
+      <p class="about">
+        Welcome to my digital notebook! Here, you can find photographs, logs, and other resources I have from my various pursuits.
+      </p>
+      <p class="about1">
+        I'm currently a college student studying the biological sciences. In my free time, I like to dabble in other activities, such as art, photography, redstone, coding, and exploring nature!
+      </p>
+      <img src="notepadimg.png" class="myphoto">
     </div>
+  </div>
+  <div class="notepad">
+    <img src="notebookimg.png" class="img">
+  </div>
+</div>
 </body>
+
 </html>
