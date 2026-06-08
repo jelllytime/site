@@ -113,7 +113,7 @@ p {
   font-family:"IBM Plex Serif";
   color:rgb(28, 28, 28);
   word-spacing: 2px;
-  font-size: calc(14px + 0.3vw);
+  font-size: calc(12px + 0.4vw);
   line-height: calc(25px + 0.6vw);
 }
 
