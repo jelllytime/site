@@ -18,7 +18,7 @@
 
 @media (min-width:320px){
   .myphoto {
-    grid-column: col-start 7 / span 4;
+    grid-column: col-start 8 / span 3;
   }
 }
 
