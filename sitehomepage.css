@@ -17,79 +17,22 @@
 }
 
 @media (min-width:320px){
-  .img {
-  width:320px;
-  height: auto;
-  }
-  .notepad, .notepadtextcontainer {
-    padding-top:100px;
-    width:320px;
-  }
-  p {
-    font-size: 12px;
-    line-height:20px;
-  }
   .myphoto {
     grid-column: col-start 7 / span 4;
   }
 }
 
 @media (min-width:480px) {
-  .img {
-  width:500px;
-  height: auto;
-  }
-  .notepad, .notepadtextcontainer {
-    padding-top:90px;
-    width:500px;
-  }
-  h1 {
-    font-size: 37.5px;
-  }
-  p {
-    font-size: 15px;
-    line-height:23px;
-  }
   .myphoto {
     grid-column: col-start 9 / span 3;
   }
 }
 @media (min-width:600px) {
-  .img {
-  width:500px;
-  height: auto;
-  }
-  .notepad, .notepadtextcontainer {
-    padding-top:130px;
-    width:500px;
-  }
-  h1 {
-    font-size: 37.5px;
-  }
-  p {
-    font-size:16px;
-    line-height:30px;
-  }
   .myphoto {
     grid-column: col-start 9 / span 3;
   }
 }
 @media (min-width:801px) {
-  .img {
-  width:660px;
-  height: auto;
-  }
-  .notepad, .notepadtextcontainer {
-    padding-top:150px;
-    width:660px;
-  }
-  h1 {
-    font-size: 49.5px;
-  }
-  p {
-    font-size: calc(14px + 0.3vw);
-    line-height:32px;
-  }
   .myphoto {
     grid-column: col-start 9 / span 3;
   }
@@ -112,6 +55,12 @@
   z-index:10;
 }
 
+.notepad, .notepadtextcontainer {
+  padding-top:150px;
+  width:90%;
+  max-width: 660px;
+}
+
 .notepadtext {
   padding-top:20px;
   display: grid;
@@ -126,6 +75,7 @@ h1 {
   text-align: center;
   font-family:"IBM Plex Serif";
   color: rgb(241, 113, 179);
+  font-size: calc(30px + 1vw);
 }
 
 .ln {
@@ -161,4 +111,10 @@ p {
   font-family:"IBM Plex Serif";
   color:rgb(28, 28, 28);
   word-spacing: 2px;
+  font-size: calc(14px + 0.3vw);
+  line-height: calc(25px + 0.6vw);
+}
+
+.img {
+  width: 100%;
 }
