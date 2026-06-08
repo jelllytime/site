@@ -131,12 +131,12 @@ h1 {
 }
 
 .about {
-  grid-column: col-start 3 / span 6;
+  grid-column: col-start 3 / span 5;
   grid-row: 2;
 }
 
 .myphoto {
-  grid-column: col-start 9 / span 3;
+  grid-column: col-start 8 / span 4;
   width:100%;
   border: 4px rgb(244, 244, 244) solid;
   border-radius:3px;
