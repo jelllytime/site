@@ -18,10 +18,10 @@
 
 @media (min-width:320px){
   .myphoto {
-    grid-column: col-start 8 / span 3;
+    grid-column: col-start 8 / span 4;
   }
   .about {
-    grid-column: col-start 3 / span 4;
+    grid-column: col-start 3 / span 5;
   }
 }
 
