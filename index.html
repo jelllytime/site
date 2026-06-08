@@ -1,162 +1,7 @@
 <!DOCTYPE html>
-<html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>bubblgum</title>
-    <link rel="icon" href="images/myfavicon-cropped.svg" type="image/x-icon">
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display=swap');
-
-  * {
-    margin:0;
-    padding:0;
-  }
-
-  .background {
-    background: url("blurred-image.png") no-repeat;
-    background-size:cover;
-    background-position:center;
-    background-attachment:fixed;
-    position:relative;
-    height: 100vh;
-    overflow:scroll;
-  }
-
-  @media (min-width:320px){
-    .img {
-    width:350px;
-    height: auto;
-    }
-    .notepad, .notepadtextcontainer {
-      padding-top:200px;
-      width:350px;
-    }
-    p {
-      font-size: 11px;
-      line-height:15px;
-    }
-  }
-
-  @media (min-width:480px) {
-    .img {
-    width:500px;
-    height: auto;
-    }
-    .notepad, .notepadtextcontainer {
-      padding-top:90px;
-      width:500px;
-    }
-    h1 {
-      font-size: 37.5px;
-    }
-    p {
-      font-size: 15px;
-      line-height:23px;
-    }
-  }
-  @media (min-width:600px) {
-    .img {
-    width:500px;
-    height: auto;
-    }
-    .notepad, .notepadtextcontainer {
-      padding-top:130px;
-      width:500px;
-    }
-    h1 {
-      font-size: 37.5px;
-    }
-    p {
-      font-size:16px;
-      line-height:30px;
-    }
-  }
-  @media (min-width:801px) {
-    .img {
-    width:660px;
-    height: auto;
-    }
-    .notepad, .notepadtextcontainer {
-      padding-top:150px;
-      width:660px;
-    }
-    h1 {
-      font-size: 49.5px;
-    }
-    p {
-      font-size: 18px;
-      line-height:32px;
-    }
-  }
-
-  .notepad {
-    position:absolute;
-    top:0;
-    left:50%;
-    transform:translateX(-50%);
-  }
-
-  .notepadtextcontainer {
-    position:absolute;
-    top:0;
-    left:50%;
-    transform:translateX(-50%);
-    z-index:10;
-  }
-
-  .notepadtext {
-    padding-top:20px;
-    display: grid;
-    width: 100%;
-    grid-template-columns: repeat(12, [col-start] 1fr);
-    column-gap: 30px;
-    row-gap: 30px;
-  }
-
-  h1 {
-    grid-column: col-start 3 / span 9;
-    text-align: center;
-    font-family:"Nerko One";
-    color: rgb(230, 156, 194);
-  }
-
-  .ln {
-    opacity:0.;
-    font-size:40%;
-    color:rgb(119, 177, 130);
-  }
-
-  .e {
-    opacity: 0.7;
-    font-size: 40%;
-    color: rgb(117, 165, 173)
-  }
-
-  .about {
-    grid-column: col-start 3 / span 6;
-    grid-row: 2;
-  }
-
-  .myphoto {
-    grid-column: col-start 9 / span 3;
-    width:100%
-  }
-
-  .about1 {
-    grid-column: col-start 3 / span 9;
-    grid-row: 3;
-  }
-  
-  p {
-    font-family:"Fuzzy Bubbles";
-    color:rgb(28, 28, 28);
-    word-spacing: 3px;
-  }
-
-
-</style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="sitehomepage.css" rel="stylesheet">
 </head>
 
 
@@ -165,7 +10,7 @@
   <div class="notepadtextcontainer">
     <div class="notepadtext">
       <h1>
-        bubbl<span class="ln" >ln</span><span class="e"> e</span><sup>gum</sup>
+        bubbl<span class="ln" > &#10005; ln</span><span class="e"> &#40;e</span><sup>gum&#41;</sup>
       </h1>
       <p class="about">
         Welcome to my digital notebook! Here, you can find photographs, logs, and other resources I have from my various pursuits.
@@ -173,11 +18,11 @@
       <p class="about1">
         I'm currently a college student studying biology. In my free time, I like to dabble in other activities, such as art, photography, redstone, coding, and exploring nature!
       </p>
-      <img src="notepadimg.png" class="myphoto">
+      <img src="hikingselfieannotated.png" class="myphoto">
     </div>
   </div>
   <div class="notepad">
-    <img src="notebookimg.PNG" class="img">
+    <img src="notebookimg.png" class="img">
   </div>
 </div>
 </body>
