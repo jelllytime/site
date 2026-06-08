@@ -70,6 +70,9 @@
     font-size:16px;
     line-height:30px;
   }
+  .myphoto {
+    grid-column: col-start 9 / span 3;
+  }
 }
 @media (min-width:801px) {
   .img {
