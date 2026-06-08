@@ -50,6 +50,9 @@
     font-size: 15px;
     line-height:23px;
   }
+  .myphoto {
+    grid-column: col-start 7 / span 4;
+  }
 }
 @media (min-width:600px) {
   .img {
@@ -84,6 +87,10 @@
     font-size: calc(14px + 0.3vw);
     line-height:32px;
   }
+  .myphoto {
+    grid-column: col-start 9 / span 3;
+  }
+  
 }
 
 .notepad {
@@ -136,7 +143,7 @@ h1 {
 }
 
 .myphoto {
-  grid-column: col-start 8 / span 4;
+
   width:100%;
   border: 4px rgb(244, 244, 244) solid;
   border-radius:3px;
