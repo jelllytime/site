@@ -51,7 +51,7 @@
     line-height:23px;
   }
   .myphoto {
-    grid-column: col-start 7 / span 4;
+    grid-column: col-start 9 / span 3;
   }
 }
 @media (min-width:600px) {
