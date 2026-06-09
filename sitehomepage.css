@@ -141,7 +141,7 @@ h1 {
 .myphoto {
 
   width:100%;
-  border: 4px rgb(255, 221, 237) solid;
+  border: 4px rgb(255, 224, 240) solid;
   border-radius:3px;
 }
 
@@ -181,12 +181,12 @@ p {
 }
 
 .tab1:hover {
-  background-color: rgb(255, 207, 223);
+  background-color: rgb(255, 200, 218);
   cursor:pointer;
 }
 
 .tab1:active {
-  background-color: rgb(255, 190, 213);
+  background-color: rgb(255, 183, 208);
 }
 
 .tab2 {
@@ -208,12 +208,12 @@ p {
 }
 
 .tab2:hover {
-  background-color: rgb(255, 218, 190);
+  background-color: rgb(252, 213, 183);
   cursor:pointer;
 }
 
 .tab2:active {
-  background-color: rgb(255, 212, 181);
+  background-color: rgb(255, 197, 156);
 }
 
 .dustopedia {
