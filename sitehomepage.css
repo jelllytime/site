@@ -43,13 +43,17 @@
     grid-column: col-start 3 / span 6;
   }
   p {
-    font-size: calc(12px + 0.3vw);
-    line-height: calc(25px + 0.3vw);
+    font-size: 12px;
+    line-height:20px;
   }
 }
 @media (min-width:600px) {
   .myphoto {
     grid-column: col-start 9 / span 3;
+  }
+  p {
+    font-size: calc(12px + 0.3vw);
+    line-height: calc(25px + 0.3vw);
   }
 }
 @media (min-width:801px) {
@@ -157,7 +161,7 @@ p {
   padding-right: 5px;
   border-radius: 10px 10px 0 0;
   border-style:none;
-  color:rgb(0, 0, 0);
+  color:rgb(186, 37, 89);
   background-color: rgb(255, 165, 196);
   border-top: rgb(222, 130, 162) 1px solid;
   border-left:rgb(219, 128, 159) 1px solid;
@@ -183,7 +187,7 @@ p {
   padding-right: 10px;
   border-radius: 10px 10px 0 0;
   border-style:none;
-  color:rgb(0, 0, 0);
+  color:rgb(192, 51, 51);
   background-color: rgb(255, 202, 165);
   border-top: rgb(237, 181, 141) 1px solid;
   border-left:rgb(240, 185, 145) 1px solid;
@@ -205,5 +209,5 @@ p {
 
 button {
   font-weight:600;
-  letter-spacing:1px;
+  letter-spacing:0.6px;
 }
