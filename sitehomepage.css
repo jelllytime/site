@@ -7,7 +7,12 @@
 }
 
 .background {
-  background: #c6dcba;   
+  background-image: linear-gradient(0deg,
+      rgba(203, 236, 160, 0.6) 0% 10%, rgba(255, 255, 255, 0.6) 10% 30%, rgba(254, 181, 182, 0.6) 30% 50%, rgba(255, 218, 235, 0.6) 50% 70%, rgba(255, 255, 255, 0.6) 70% 90%, rgba(203, 236, 160, 0.6) 90% 100%),
+      linear-gradient(90deg,
+        rgba(203, 236, 160, 0.6) 0% 10%, rgba(255, 255, 255, 0.6) 10% 30%, rgba(254, 181, 182, 0.6) 30% 50%, rgba(255, 218, 235, 0.6) 50% 70%, rgba(255, 255, 255, 0.6) 70% 90%, rgba(203, 236, 160, 0.6) 90% 100%
+        );
+  background-size: 10px 10px,10px 10px,10px 10px,10px 10px,10px 10px;
   background-size:cover;
   background-position:center;
   background-attachment:fixed;
