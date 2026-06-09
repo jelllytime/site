@@ -64,7 +64,7 @@
 .notepad, .notepadtextcontainer {
   padding-top:150px;
   width:90%;
-  max-width: 500px;
+  max-width: 520px;
 }
 
 .notepadtext {
@@ -72,7 +72,7 @@
   display: grid;
   width: 100%;
   grid-template-columns: repeat(12, [col-start] 1fr);
-  column-gap: 30px;
+  column-gap: 10px;
   row-gap: 30px;
 }
 
