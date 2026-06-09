@@ -162,5 +162,31 @@ p {
 }
 
 .tab1:active {
-  background-color: rgb(255, 116, 165);
+  background-color: rgb(255, 138, 179);
+}
+
+.tab2 {
+  z-index:1;
+  position:absolute;
+  top: 113px;
+  left: calc(40vw + 60px);
+  padding-top:15px;
+  padding-bottom:15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px 10px 0 0;
+  border-style:none;
+  color:rgb(0, 0, 0);
+  background-color: rgb(255, 202, 165);
+  border-top: rgb(237, 181, 141) 1px solid;
+  border-left:rgb(240, 185, 145) 1px solid;
+}
+
+.tab2:hover {
+  background-color: rgb(255, 191, 145);
+  cursor:pointer;
+}
+
+.tab2:active {
+  background-color: rgb(255, 171, 111);
 }
