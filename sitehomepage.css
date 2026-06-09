@@ -4,6 +4,7 @@
 * {
   margin:0;
   padding:0;
+  font-family: "IBM Plex Serif";
 }
 
 .background {
@@ -12,7 +13,7 @@
       linear-gradient(90deg,
         rgba(203, 236, 160, 0.6) 0% 10%, rgba(255, 255, 255, 0.6) 10% 30%, rgba(254, 181, 182, 0.6) 30% 50%, rgba(255, 218, 235, 0.6) 50% 70%, rgba(255, 255, 255, 0.6) 70% 90%, rgba(203, 236, 160, 0.6) 90% 100%
         );
-  background-size: 10px 10px,10px 10px,10px 10px,10px 10px,10px 10px;
+  background-size: 100px 100px,100px 100px,100px 100px,100px 100px,100px 10px;
   background-size:cover;
   background-position:center;
   background-attachment:fixed;
@@ -128,4 +129,20 @@ p {
 
 .img {
   width: 100%;
+}
+
+.tab1 {
+  position:absolute;
+  top: 117px;
+  left: calc(40vw - 30px);
+  padding-top:15px;
+  padding-bottom:7px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 10px 10px 0 0;
+  border-style:none;
+  color:rgb(0, 0, 0);
+  background-color: pink;
+  border-top: rgb(240, 158, 172) 1px solid;
+  border-left:rgb(240, 158, 172) 1px solid;
 }
