@@ -173,19 +173,20 @@ p {
   padding-right: 5px;
   border-radius: 10px 10px 0 0;
   border-style:none;
-  color:rgb(186, 37, 89);
-  background-color: rgb(255, 165, 196);
+  color:rgb(239, 49, 115);
+  background-color: rgb(255, 212, 227);
   border-top: rgb(222, 130, 162) 1px solid;
   border-left:rgb(219, 128, 159) 1px solid;
+  opacity: 0.6;
 }
 
 .tab1:hover {
-  background-color: rgb(255, 152, 188);
+  background-color: rgb(255, 207, 223);
   cursor:pointer;
 }
 
 .tab1:active {
-  background-color: rgb(255, 138, 179);
+  background-color: rgb(255, 190, 213);
 }
 
 .tab2 {
@@ -199,19 +200,20 @@ p {
   padding-right: 10px;
   border-radius: 10px 10px 0 0;
   border-style:none;
-  color:rgb(192, 51, 51);
-  background-color: rgb(255, 202, 165);
+  color:rgb(224, 67, 67);
+  background-color: rgb(255, 222, 198);
   border-top: rgb(237, 181, 141) 1px solid;
   border-left:rgb(240, 185, 145) 1px solid;
+  opacity:0.6;
 }
 
 .tab2:hover {
-  background-color: rgb(255, 191, 145);
+  background-color: rgb(255, 218, 190);
   cursor:pointer;
 }
 
 .tab2:active {
-  background-color: rgb(255, 171, 111);
+  background-color: rgb(255, 212, 181);
 }
 
 .dustopedia {
