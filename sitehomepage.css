@@ -30,8 +30,8 @@
     grid-column: col-start 3 / span 5;
   }
   p {
-    font-size: 12px;
-    line-height:20px;
+    font-size: 10px;
+    line-height:18px;
   }
 }
 
