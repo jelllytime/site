@@ -190,3 +190,8 @@ p {
 .tab2:active {
   background-color: rgb(255, 171, 111);
 }
+
+.dustopedia {
+  color: rgb(164, 23, 23);
+  font-weight:700;
+}
