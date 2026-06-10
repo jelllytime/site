@@ -159,16 +159,16 @@ a {
   border-style:none;
   color:rgb(71, 157, 28);
   background-color: rgb(213, 255, 186);
-  border-top: rgb(164, 224, 130) 1px solid;
-  border-left:rgb(104, 185, 86) 1px solid;
+  border-top: rgb(158, 219, 122) 1px solid;
+  border-left:rgb(158, 219, 122) 1px solid;
   opacity:0.6;
 }
 
 .tab2:hover {
-  background-color: rgb(197, 252, 183);
+  background-color: rgb(200, 246, 173);
   cursor:pointer;
 }
 
 .tab2:active {
-  background-color: rgb(191, 255, 156);
+  background-color: rgb(185, 255, 147);
 }
