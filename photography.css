@@ -61,7 +61,7 @@ li a:hover {
   font-size: calc(50px + 3vw);
   width: fit-content;
   position: absolute;
-  top: 300px;
+  top: 20vh;
   left: 50%;
   transform: translateX(-50%);
   background-color: rgba(18, 71, 127, 0.418);
