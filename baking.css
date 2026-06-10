@@ -118,7 +118,7 @@
 .tab1 {
   z-index:0;
   position:absolute;
-  top: 68px;
+  top: 64px;
   left: calc(40vw - 80px);
   padding-top:12px;
   padding-bottom:15px;
@@ -145,7 +145,7 @@
 .tab2 {
   z-index:0;
   position:absolute;
-  top: 68px;
+  top: 64px;
   left: calc(40vw + 40px);
   padding-top:12px;
   padding-bottom:15px;
