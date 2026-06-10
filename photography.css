@@ -67,7 +67,7 @@ li a:hover {
   background-color: rgba(18, 71, 127, 0.418);
   color: white;
   padding: 10px;
-  text-align:left;
+  text-align:center;
   animation: fadeIn 1s ease-in forwards;
 }
 
