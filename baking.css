@@ -118,3 +118,57 @@ a {
   padding-top: 20px;
   color: rgb(125, 173, 203);
 }
+
+.tab1 {
+  z-index:0;
+  position:absolute;
+  top: 68px;
+  left: calc(40vw - 80px);
+  padding-top:12px;
+  padding-bottom:15px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 10px 10px 0 0;
+  border-style:none;
+  color:rgb(239, 49, 115);
+  background-color: rgb(255, 212, 227);
+  border-top: rgb(222, 130, 162) 1px solid;
+  border-left:rgb(219, 128, 159) 1px solid;
+  opacity: 0.6;
+}
+
+.tab1:hover {
+  background-color: rgb(255, 200, 218);
+  cursor:pointer;
+}
+
+.tab1:active {
+  background-color: rgb(255, 183, 208);
+}
+
+.tab2 {
+  z-index:0;
+  position:absolute;
+  top: 68px;
+  left: calc(40vw + 20px);
+  padding-top:12px;
+  padding-bottom:15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px 10px 0 0;
+  border-style:none;
+  color:rgb(71, 157, 28);
+  background-color: rgb(213, 255, 186);
+  border-top: rgb(164, 224, 130) 1px solid;
+  border-left:rgb(104, 185, 86) 1px solid;
+  opacity:0.6;
+}
+
+.tab2:hover {
+  background-color: rgb(197, 252, 183);
+  cursor:pointer;
+}
+
+.tab2:active {
+  background-color: rgb(191, 255, 156);
+}
