@@ -89,12 +89,8 @@
   overflow: visible;
 }
 
-a {
-  color: rgb(99, 157, 186);
-}
-
-.dailyspecial h1 {
-  color: rgb(99, 157, 186);
+.dailyspecial h2 {
+  color: rgb(152, 91, 45);
 }
 
 .menu {
@@ -180,4 +176,8 @@ button {
 
 button p {
   font-size: 11px;
+}
+
+.dailyspecial h2 {
+
 }
